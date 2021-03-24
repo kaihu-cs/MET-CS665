@@ -37,7 +37,7 @@ public class Main {
     suvCar.applyFullBrake(); // apply the full brake
 
     System.out.println("\n\n ############## \n\n");
-    System.out.println("FighterJet \n");
+    System.out.println("SpeedBoat \n");
 
     MeansOfTransportation speedBoat = new SpeedBoat();
     speedBoat.setSpeed(60d);
@@ -45,7 +45,7 @@ public class Main {
     speedBoat.applyFullBrake();
 
     System.out.println("\n\n ############## \n\n");
-    System.out.println("SpeedBoat \n");
+    System.out.println("FighterJet \n");
 
     MeansOfTransportation fighterJet = new FighterJet();
     // fly ...
